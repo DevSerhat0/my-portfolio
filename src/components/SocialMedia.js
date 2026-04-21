@@ -11,7 +11,7 @@ function SocialMedia () {
             </a>
 
             <a
-            href="www.linkedin.com/in/m-serhat-aba-dev"
+            href="https://www.linkedin.com/in/m-serhat-aba-dev/"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"
