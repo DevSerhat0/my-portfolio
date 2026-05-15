@@ -1,21 +1,26 @@
+import styles from './Content.module.css';
+import { userData } from "./Data";
 import SocialMedia from "./SocialMedia";
 
 function Content () {
     return (
-        <div className="content">
-            <h1>Mehmet Serhat ABA</h1>
-            <p>Self-taught Front-end Developer & Tech Enthusiast</p>
+        <div className={styles.container}>
+            <h1 className={styles.title}>{ userData.fullName }</h1>
+            <p className={styles.description}>{ userData.title }</p>
 
-            <ul>
-                <li><i className="fa-solid fa-code"></i> HTML5 & CSS3 Fundamentals</li>
-                <li><i className="fa-solid fa-layer-group"></i> Responsive Web Design</li>
-                <li><i className="fa-solid fa-terminal"></i> Git & GitHub Learner</li>
+            <ul className={styles.skillList}>
+                {userData.skills.map((skill, index) => (
+                    <li key={index} className={styles.skillItem}>
+                        <i className={`fa-solid ${skill.icon} ${styles.skillIcon}`}></i>
+                        {skill.name}
+                    </li>
+                ))}
             </ul>
 
             <SocialMedia />
 
-            <div className="btn-container">
-                <button className="btn-more">More About Me</button>
+            <div className={styles.btnContainer}>
+                <button className={styles['btn-more']}>More About Me</button>
             </div>
         </div>
     );

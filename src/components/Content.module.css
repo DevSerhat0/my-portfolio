@@ -1,0 +1,53 @@
+.container {
+    padding: 20px;
+    background: var(--card-bg);
+}
+.title {
+    color: var(--primary-color);
+}
+.container h1 {
+    margin: 0 0 10px 0;
+    color: var(--secondary-color);
+    font-size: 28px;
+}
+.container p {
+    font-size: 16px;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+.skillList {
+    list-style: none;
+    padding: 0;
+}
+.skillItem {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.skillIcon {
+    color: var(--primary-color);
+    width: 20px;
+}
+.btn-more {
+    margin-top: 30px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 12px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-more:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(251, 191, 36, 0.4);
+}

@@ -1,8 +1,12 @@
+import React from "react";
+import styles from './SocialMedia.module.css';
+import { userData } from "./Data";
+
 function SocialMedia () {
     return (
-        <div className="social-media">
+        <div className={styles['social-media']}>
             <a
-            href="https://github.com/DevSerhat0/"
+            href={userData.social.github}
             target="_blank"
             rel="noreferrer"
             title="GitHub"
@@ -11,7 +15,7 @@ function SocialMedia () {
             </a>
 
             <a
-            href="https://www.linkedin.com/in/m-serhat-aba-dev/"
+            href={userData.social.linkedin}
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"
@@ -20,7 +24,7 @@ function SocialMedia () {
             </a>
 
             <a
-            href="https://www.instagram.com/serhvnx/"
+            href={userData.social.instagram}
             target="_blank"
             rel="noreferrer"
             title="Instagram"
