@@ -16,8 +16,6 @@
             background-color: var(--bg-color);
             font-family: var(--primary-font);
             color: var(--text-color);
-            display: flex;
-            justify-content: center;
             margin: 0;
             padding: 0;
         }

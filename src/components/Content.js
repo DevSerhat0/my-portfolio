@@ -20,7 +20,13 @@ function Content () {
             <SocialMedia />
 
             <div className={styles.btnContainer}>
-                <button className={styles['btn-more']}>More About Me</button>
+                <button className={styles['btn']}>More About Me</button>
+                <a
+                className={` ${styles.btn} ${styles['btn-tropy']}`}
+                href='/serhat-cv.pdf'
+                download="Mehmet_Serhat_ABA_CV"
+                title="Download my cv"
+                >That's My Cv</a>
             </div>
         </div>
     );

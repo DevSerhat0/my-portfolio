@@ -11,5 +11,6 @@
 }
 .social-media a:hover {
     color: var(--primary-color);
+    filter: drop-shadow(0 5px 15px rgba(251,191,36,0.4));
     transform: translateY(-5px);
 }
