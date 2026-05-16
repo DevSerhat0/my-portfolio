@@ -1,0 +1,14 @@
+.mainfooter {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: small;
+    position: absolute;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Content from './components/Content';
 import ProfileImage from './components/ProfileImage';
 
@@ -11,6 +12,7 @@ function App() {
         <ProfileImage />
         <Content />
       </main>
+      <Footer />
     </div>
   );
 }
