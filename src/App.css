@@ -48,5 +48,11 @@
                 text-align: center;
                 padding: 30px;
             }
-            ul li { justify-content: center; }
+            .App {
+                flex-direction: column;
+            }
+            ul li {
+                display: flex;
+                justify-content: center;
+            }
         }

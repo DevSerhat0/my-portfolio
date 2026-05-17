@@ -12,3 +12,12 @@
     font-size: small;
     position: absolute;
 }
+@media (max-width: 768px) {
+    .mainfooter {
+        margin-top: 15px;
+        position: static;
+        width: 100%;
+        text-align: center;
+        flex-direction: row;
+    }
+}
